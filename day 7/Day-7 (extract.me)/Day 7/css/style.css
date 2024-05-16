@@ -1,0 +1,91 @@
+.topbar{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+#container{
+    width: 70%;
+    margin: 0px auto;
+}
+#header{
+    height: 90px;
+}
+#header ul{
+    float: right;
+}
+#header ul li{
+    display: inline;
+}
+
+#header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+#banner img{
+    width: 100%;
+}
+#content1{
+    width: 32%;
+    background-color: red;
+    height: 400px;
+    margin-right: 2%;
+    float: left;
+}
+.heading{
+    color: white;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.para1{
+    color: white;
+    margin-left: 15px;
+    text-align: justify;
+    margin-right: 10px;
+}
+.more{
+    text-decoration: none;
+    background-color: white;
+    margin-left:15px ;
+    padding: 5px;
+    color: black;
+}
+#content2{
+    background-color: orange;
+    height: 400px;
+    width: 32%;
+    float: left;
+}
+#content3{
+    background-color: blue;
+    height: 400px;
+    float: right;
+    width: 32%;
+}
+#bottom1{
+    width: 60%;
+    float: left;
+}
+#bottom1 p{
+text-align: justify;
+}
+
+#bottom2{
+    width: 40%;
+    float: right;
+
+}
+
+footer{
+    background-color: black;
+    height:50px;
+    width: 100%;
+    clear: both;
+
+}
+footer P{
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+}

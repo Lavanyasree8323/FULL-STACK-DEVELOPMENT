@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.container{
+    height: 500px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 5px;
+    padding: 100px;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 5px rgb(131, 130, 130);
+}
+.brand-logo{
+    background: url(../images/profile1.png);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgb(248, 247, 247);
+    border-radius: 50px;
+}
+.brand-title{
+    color: rgb(41, 200, 240);
+}
+.inputs{
+    text-align: left;
+    margin-top: 10px;
+}
+label,input,button{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 5px;
+    color: rgb(41, 200, 240);
+}
+input{
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(186, 185, 185);
+    border-radius: 5px;
+}
+button{
+    margin-top: 15px;
+    background-color: rgb(41, 200, 240);
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+}

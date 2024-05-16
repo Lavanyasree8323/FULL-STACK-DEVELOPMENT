@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.App-product {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+ 
+}
+.App-product:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.App-cart {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+button{
+  background-color: rgb(33, 143, 165);
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:HOVER{
+  background-color: rgb(160, 220, 213);
+  color: black;
+}
+h2{
+  font-size: 50px;
+}

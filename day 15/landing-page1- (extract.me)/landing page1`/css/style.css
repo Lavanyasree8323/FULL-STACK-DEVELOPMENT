@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.container{
+    background: url(../images/tech.avif);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cta{
+    text-decoration: none;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    border-radius: 5px;
+}
+.features{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
